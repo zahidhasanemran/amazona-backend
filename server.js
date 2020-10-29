@@ -9,6 +9,8 @@ import bodyParser from 'body-parser'
 dotenv.config();
 const mongodbUrl = config.MONGODB_URL;
 
+const port = process.env.PORT || 5000;
+
 mongoose.connect(mongodbUrl, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
@@ -47,6 +49,6 @@ app.get("/", (req, res) => {
   });
 
 
-  app.use(express.static('public'));
-app.listen(process.env.PORT || 5000, () => {console.log("server started at 5000");});
+app.listen(port, () => {console.log("server started at 5000");});
+app.use(express.static('public'));
 
