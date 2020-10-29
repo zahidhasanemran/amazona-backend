@@ -2,7 +2,7 @@ export default {
     products: [
         {
             id: 1,
-            image: 'http://localhost:5000/img/product6.jpg',
+            image: '/img/product6.jpg',
             price: 12,
             review: 5,
             title: 'Rajshahi Mango',
@@ -17,7 +17,7 @@ export default {
         },
         {
             id: 2,
-            image: 'http://localhost:5000/img/product4.jpg',
+            image: '/img/product4.jpg',
             price: 3,
             review: 4,
             title: 'Fresh Cofy',
@@ -32,7 +32,7 @@ export default {
         },
         {
             id: 3,
-            image: 'http://localhost:5000/img/product11.jpg',
+            image: '/img/product11.jpg',
             price: 13,
             review: 5,
             title: 'Grape Fruit',
@@ -47,7 +47,7 @@ export default {
         },
         {
             id: 4,
-            image: 'http://localhost:5000/img/product22.jpg',
+            image: '/img/product22.jpg',
             price: 2.8,
             review: 5,
             title: 'Onion Mosorio',
@@ -62,7 +62,7 @@ export default {
         },
         {
             id: 5,
-            image: 'http://localhost:5000/img/product1.jpg',
+            image: '/img/product1.jpg',
             price: 18,
             review: 5,
             title: 'Reed Grape Fruites',
@@ -77,7 +77,7 @@ export default {
         },
         {
             id: 6,
-            image: 'http://localhost:5000/img/product10.jpg',
+            image: '/img/product10.jpg',
             price: 18,
             review: 5,
             title: 'Foreign Chili',
@@ -92,7 +92,7 @@ export default {
         },
         {
             id: 7,
-            image: 'http://localhost:5000/img/product24.jpg',
+            image: '/img/product24.jpg',
             price: 1.8,
             review: 4,
             title: 'Banana',
@@ -107,7 +107,7 @@ export default {
         },
         {
             id: 8,
-            image: 'http://localhost:5000/img/product23.jpg',
+            image: '/img/product23.jpg',
             price: 2.3,
             review: 4,
             title: 'Anarosh - Deshi',
@@ -122,7 +122,7 @@ export default {
         },
         {
             id: 9,
-            image: 'http://localhost:5000/img/product12.jpg',
+            image: '/img/product12.jpg',
             price: 2.6,
             review: 5,
             title: 'Anar (Paris)',
@@ -137,7 +137,7 @@ export default {
         },
         {
             id: 10,
-            image: 'http://localhost:5000/img/product2.jpg',
+            image: '/img/product2.jpg',
             price: 3.6,
             review: 4,
             title: 'Watermelon',
@@ -152,7 +152,7 @@ export default {
         },
         {
             id: 11,
-            image: 'http://localhost:5000/img/product5.jpg',
+            image: '/img/product5.jpg',
             price: 7,
             review: 5,
             title: 'kijani',
@@ -167,7 +167,7 @@ export default {
         },
         {
             id: 12,
-            image: 'http://localhost:5000/img/product9.jpg',
+            image: '/img/product9.jpg',
             price: 11.9,
             review: 5,
             title: 'Green Apple',
@@ -182,7 +182,7 @@ export default {
         },
         {
             id: 13,
-            image: 'http://localhost:5000/img/product1.jpg',
+            image: '/img/product1.jpg',
             price: 19.9,
             review: 5,
             title: 'Canadian Grape',
@@ -197,7 +197,7 @@ export default {
         },
         {
             id: 14,
-            image: 'http://localhost:5000/img/product3.jpg',
+            image: '/img/product3.jpg',
             price: 12.3,
             review: 4,
             title: 'Malta',
@@ -212,7 +212,7 @@ export default {
         },
         {
             id: 15,
-            image: 'http://localhost:5000/img/product15.jpg',
+            image: '/img/product15.jpg',
             price: 7,
             review: 5,
             title: 'Deshi Onion',
@@ -227,7 +227,7 @@ export default {
         },
         {
             id: 16,
-            image: 'http://localhost:5000/img/product25.jpg',
+            image: '/img/product25.jpg',
             price: 34,
             review: 5,
             title: 'Papaya',
@@ -242,7 +242,7 @@ export default {
         },
         {
             id: 17,
-            image: 'http://localhost:5000/img/product16.jpg',
+            image: '/img/product16.jpg',
             price: 9.2,
             review: 5,
             title: 'Gajor',
@@ -257,7 +257,7 @@ export default {
         },
         {
             id: 18,
-            image: 'http://localhost:5000/img/product13.jpg',
+            image: '/img/product13.jpg',
             price: 6,
             review: 5,
             title: 'Kala Grape Fruit',
@@ -272,7 +272,7 @@ export default {
         },
         {
             id: 19,
-            image: 'http://localhost:5000/img/product11.jpg',
+            image: '/img/product11.jpg',
             price: 13,
             review: 5,
             title: 'Canadian Grape',
@@ -286,7 +286,7 @@ export default {
             best: false
         },{
             id: 20,
-            image: 'http://localhost:5000/img/product1.jpg',
+            image: '/img/product1.jpg',
             price: 18,
             review: 5,
             title: 'Reed Grape Fruites',
