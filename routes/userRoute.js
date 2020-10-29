@@ -2,20 +2,6 @@ import express from 'express';
 import User from '../models/userModel.js';
 import {getToken} from '../util'
 const router = express.Router();
-const cors = require('cors');
-
-
-
-var whitelist = ['https://redux-ecomerce.herokuapp.com/', 'https://redux-backend.herokuapp.com/']
-var corsOptionsDelegate = function (req, callback) {
-  var corsOptions;
-  if (whitelist.indexOf(req.header('Origin')) !== -1) {
-    corsOptions = { origin: true } // reflect (enable) the requested origin in the CORS response
-  } else {
-    corsOptions = { origin: false } // disable CORS for this request
-  }
-  callback(null, corsOptions) // callback expects two parameters: error and options
-}
 
 
 router.post('/login', cors(corsOptionsDelegate), async (req, res) => {
@@ -41,7 +27,7 @@ router.post('/login', cors(corsOptionsDelegate), async (req, res) => {
 
 })
 
-router.post('/register', cors(corsOptionsDelegate), async (req, res) => {
+router.post('/register', async (req, res) => {
     
     const user = new User ({
         name: req.body.name,
