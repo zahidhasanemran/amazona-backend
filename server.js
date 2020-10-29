@@ -18,8 +18,8 @@ var corsOptions = {
     origin: "https://redux-ecomerce.herokuapp.com/"
 };
   
-// app.use(cors(corsOptions));
-app.options('*', cors())
+app.use(cors(corsOptions));
+// app.options('*', cors())
 // connectDB();
 
 
