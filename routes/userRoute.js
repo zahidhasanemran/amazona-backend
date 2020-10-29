@@ -4,7 +4,7 @@ import {getToken} from '../util'
 const router = express.Router();
 
 
-router.post('/login', cors(corsOptionsDelegate), async (req, res) => {
+router.post('/login', async (req, res) => {
     
     const LoginQuery = await User.findOne({
         email: req.body.email,

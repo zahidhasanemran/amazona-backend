@@ -19,8 +19,7 @@ var corsOptions = {
 };
   
 app.use(cors(corsOptions));
-// app.options('*', cors())
-// connectDB();
+
 
 
 
