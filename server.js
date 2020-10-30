@@ -15,7 +15,7 @@ const app = express();
 app.use(bodyParser.json())
 app.use(express.static('public'))
 var corsOptions = {
-    origin: "http://localhost:5000"
+    origin: "http://localhost:3000"
     // origin: "https://redux-ecomerce.herokuapp.com/"
 };
   
