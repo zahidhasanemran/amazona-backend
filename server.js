@@ -1,13 +1,15 @@
+require("dotenv").config();
+
 const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
-const dotenv = require("dotenv");
 const cors = require("cors"); 
 import data from './data'
 import config from './config'
 import userRoute from './routes/userRoute'
 
-dotenv.config();
+// dotenv.config();
+
 const mongodbUrl = config.MONGODB_URL || 'mongodb://localhost/amazona';
 
 const port = process.env.PORT || 5000;
