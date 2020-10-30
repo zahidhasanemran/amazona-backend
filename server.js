@@ -15,7 +15,8 @@ const app = express();
 app.use(bodyParser.json())
 app.use(express.static('public'))
 var corsOptions = {
-    origin: "https://redux-ecomerce.herokuapp.com/"
+    origin: "http://localhost:5000"
+    // origin: "https://redux-ecomerce.herokuapp.com/"
 };
   
 app.use(cors(corsOptions));
@@ -59,4 +60,6 @@ mongoose.connect(mongodbUrl, {
     console.log(res);
     app.use("/api/users", userRoute);
 }).catch(error => console.log(error.message)); 
-app.listen(port, () => {console.log("server started at 5000")});
+
+
+app.listen(port, () => {console.log(`server started at ${port}`)});
