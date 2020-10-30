@@ -10,7 +10,7 @@ router.post('/login', async (req, res) => {
         email: req.body.email,
         password: req.body.password
     })
-    console.log(LoginQuery);
+    // console.log(LoginQuery);
     if(LoginQuery){
         res.send({
             id: LoginQuery.id,

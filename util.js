@@ -6,10 +6,8 @@ const getToken = (user) => {
         id: user.id,
         name: user.name,
         email: user.email,
-        isAdmin: user.isAdmin
-    }, config.JWT_SECRET, {
-        expiresIn : '48h'
-    })
+        isAdmin: user.isAdmin,
+    }, config.JWT_SECRET, {expiresIn: '86400'})
 }
 
 
